@@ -10,7 +10,7 @@
 ### Please clone the project
 
 ```bash
-git clone https://github.com/muchuanhung/vue3_perspective_playground.git
+git clone  https://muchuanhung.github.io/vue3_perspective_playground/
 ```
 
 ### Install dependencies
