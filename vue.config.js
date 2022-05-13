@@ -1,6 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
+// ./vue.config.js
 module.exports = {
-  chainWebpack: config => {
-      config.module.rules.delete('eslint');
-  }
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/forum-front-end-vue/'
+    : '/'
 }
